@@ -88,7 +88,7 @@ $script.ready('jsloadr', function() {
 
 
 ## Developer
-* Conor MacNeill [thefella.com](http://thefella.com) | [@thefella](http://twitter.com/thefella)
+* Conor MacNeill -  [thefella.com](http://thefella.com) | [@thefella](http://twitter.com/thefella)
 	
 
 
