@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>jsLoadr</title>
+<script src="src/jsloadr.js"></script>
+<script>
+$jsloadr.load('jquery', function() {
+	// This is where you would call jQuery
+	alert('query fired')
+});
+$jsloadr.load('lightbox', function() {
+	// This is where you would call your lightbox.js
+	alert('lightbox fired')
+});
+</script>
+</head>
+<body data-js="jquery lightbox">
+<h1>jsLoadr</h1>
