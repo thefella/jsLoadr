@@ -26,6 +26,27 @@ $jsloadr.load('jquery', function() {
 ```
 
 
+## Lazy Loading
+If you name your file the same as the data-js
+``` js
+$jsloadr.lazy('dinosaur');
+```
+If the data-js contains 'dinosaur', this will load '/dinosaur.js'.
+
+Your scripts are probably not in the root folder, so you can adjust this using two methods
+``` js
+// Load a script called dinosaur.js in the folder /assets/js
+$jsloadr.lazy('dinosaur', '/assets/js/');
+
+// Set the path, then load the script(s)
+$jsloadr.path('/assets/js');
+$jsloadr.lazy('dinosaur');
+```
+Remember, these will only load if you request them in the data-js.
+
+
+
+
 ### More Examples
 ``` html
 <body data-js="jquery lightbox">
