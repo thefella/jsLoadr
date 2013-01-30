@@ -35,9 +35,13 @@ $jsloadr.load('jquery', function() {
 $jsloadr.load('lightbox', function() {
 	// Load your lightbox.js script
 });
-'''
+```
 
 This means that only your 'lightbox' JavaScript files would only be included on pages that needed them, buy adding 'lightbox' to the data-js attribute.
+
+
+## Developer
+* Conor MacNeill [thefella.com](http://thefella.com) | [@thefella](http://twitter.com/thefella)
 	
 
 
