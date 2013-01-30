@@ -23,6 +23,10 @@ JavaScript
 $jsloadr.load('jquery', function() {
 	// Load jQuery
 });
+
+$jsloadr.load('contact', function() {
+	// Load whatever you need for your contact page
+});
 ```
 
 
