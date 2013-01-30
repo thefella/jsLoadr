@@ -1,7 +1,7 @@
 ## jsLoadr
 Load page-specific JavaScript using HTML5 data attributes. This means that you can control loading JavaScript files from the HTML using non-intrusive, valid HTML5 attributes.
 
-This does not deal with dependency issues and lazy-loading, it is simply for picking what scripts you need on each page. My all means, use this to fire off an asynchronous dependency manger script. I recommend [$script.js](https://github.com/ded/script.js).
+This does not deal with dependency issues, it is simply for picking what scripts you need on each page. My all means, use this to fire off an asynchronous dependency manger script. I recommend [$script.js](https://github.com/ded/script.js).
 
 
 ## Basic Examples
